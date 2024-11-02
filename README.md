@@ -1,16 +1,16 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# [MOTIVATOR] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [LINKED LIST]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [MOHAMMED ASLAM] - [GOVERNMENT ENGINEERING COLLEGE SREEKRISHNAPURAM]
+- Member 2: [PARTHIV KRISHNA] - [GOVERNMENT ENGINEERING COLLEGE SREEKRISHNAPURAM]
+- Member 3: [NAVAMI BR] - [GOVERNMENT ENGINEERING COLLEGE SREEKRISHNAPURAM]
 
 ### Project Description
 [2-3 lines about what your project does]
