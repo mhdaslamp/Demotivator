@@ -6,6 +6,7 @@ body {
     align-items: center;
     background: linear-gradient(135deg, #7F00FF, #E100FF);
     font-family: Arial, sans-serif;
+    overflow:hidden;
 }
 
 .container {
@@ -14,8 +15,9 @@ body {
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative; 
+    z-index: 1; 
 }
-
 h1 {
     color: white;
     font-size: 36px;
@@ -96,4 +98,107 @@ p {
 .button .arrow {
     margin-left: 5px; /* Adjust for spacing */
     display: inline-block; /* Ensure it stays in line with text */
+}
+
+
+
+.floating-image {
+    position: absolute;
+    width: 150px; /* Set your desired width */
+    height: 150px; /* Set your desired height */
+    background-size: cover;
+    animation: float 12s ease-in-out infinite; /* Adjusted duration for faster movement */
+    z-index: 0; /* Lower z-index to place it behind the container */
+}
+
+/* Floating animation */
+@keyframes float {
+    0% {
+        transform: translate(0, 0); /* Starting position */
+    }
+    10% {
+        transform: translate(100px, -100px); /* Move to the upper right */
+    }
+    20% {
+        transform: translate(150px, 50px); /* Move further to the right */
+    }
+    30% {
+        transform: translate(150px, 250px); /* Move down to the right */
+    }
+    40% {
+        transform: translate(-150px, 270px); /* Move down to the left */
+    }
+    50% {
+        transform: translate(-100px, 150px); /* Move further to the left */
+    }
+    60% {
+        transform: translate(-170px, -20px); /* Move up to the left */
+    }
+    70% {
+        transform: translate(100px, -180px); /* Move up to the right */
+    }
+    80% {
+        transform: translate(200px, -150px); /* Move diagonally */
+    }
+    90% {
+        transform: translate(100px, 100px); /* Hold position briefly */
+    }
+    100% {
+        transform: translate(0, 0); /* Return to starting position */
+    }
+}
+
+/* Specific delays for multiple images with slight randomness */
+.floating-image:nth-child(1) {
+    animation-delay: 0s;
+    top: 10%; /* Different starting position */
+    left: 10%; /* Different starting position */
+}
+
+.floating-image:nth-child(2) {
+    animation-delay: 2s;
+    top: 20%;
+    left: 50%;
+}
+
+.floating-image:nth-child(3) {
+    animation-delay: 4s;
+    top: 30%;
+    left: 70%;
+}
+
+.floating-image:nth-child(4) {
+    animation-delay: 6s;
+    top: 40%;
+    left: 30%;
+}
+
+.floating-image:nth-child(5) {
+    animation-delay: 8s;
+    top: 50%;
+    left: 80%;
+}
+
+.floating-image:nth-child(6) {
+    animation-delay: 10s;
+    top: 60%;
+    left: 20%;
+}
+
+.floating-image:nth-child(7) {
+    animation-delay: 12s;
+    top: 70%;
+    left: 10%;
+}
+
+.floating-image:nth-child(8) {
+    animation-delay: 14s;
+    top: 80%;
+    left: 90%;
+}
+
+.floating-image:nth-child(9) {
+    animation-delay: 16s;
+    top: 90%;
+    left: 40%;
 }

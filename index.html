@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motivator</title>
+    <link rel="stylesheet" href="style2.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div
+      class="floating-image"
+      style="background-image: url('nagachechi.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('shibudinam.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('nagachechi.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('nagachechi.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('shibudinam.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('nagachechi.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('shibudinam.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('nagachechi.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('shibudinam.png')"
+    ></div>
+
+    <div class="container">
+      <h1>Need Some Motivation?</h1>
+
+      <div id="quote" style="font-size: 1.5em; margin: 20px 0"></div>
+
+      <div class="dropdown">
+        <button id="mainButton" class="button">
+          Motivation Categories <i class="arrow"></i>
+        </button>
+
+        <div class="dropdown-content">
+          <button class="button" onclick="changeCategory('Study')">
+            Study
+          </button>
+          <button class="button" onclick="changeCategory('Business')">
+            Business
+          </button>
+          <button class="button" onclick="changeCategory('Life')">Life</button>
+          <button class="button" onclick="changeCategory('Relationship')">
+            Relationship
+          </button>
+        </div>
+      </div>
+
+      <button class="button" onclick="getMotivation()">Get Motivation</button>
+
+      <button
+        class="button"
+        id="stopAudioButton"
+        onclick="stopAudio()"
+        onmouseover="moveButton()"
+      >
+        Stop Audio
+      </button>
+
+      <audio id="motivational-music" preload="auto"></audio>
+
+      <audio
+        id="motivational-music"
+        src="nagachechi.mp3"
+        preload="auto"
+      ></audio>
+    </div>
+  </body>
+</html>
