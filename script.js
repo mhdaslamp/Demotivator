@@ -107,8 +107,8 @@ function moveButton() {
   const button = document.getElementById("stopAudioButton");
   
   // Define the maximum width and height for the movement area
-  const maxWidth = 750;
-  const maxHeight = 750;
+  const maxWidth = 550;
+  const maxHeight = 550;
   
   // Ensure the button stays within the max width and height
   const randomX = Math.floor(Math.random() * (Math.min(maxWidth, window.innerWidth) - button.offsetWidth));
