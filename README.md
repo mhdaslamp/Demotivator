@@ -41,8 +41,6 @@ https://mhdaslamp.github.io/Demotivator/
 For Software:
 
 # Screenshots (Add at least 3)
-
-![image](https://github.com/user-attachments/assets/444d4804-b968-492c-82ca-9bb578cd4bc9)<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 ![Screenshot 2024-11-02 190320](https://github.com/user-attachments/assets/87a8a985-ba4c-49aa-ae70-00d824421612)<img width="1280" alt="screenshot" scrc="https://github.com/user-attachments/assets/87a8a985-ba4c-49aa-ae70-00d824421612"
 
 
