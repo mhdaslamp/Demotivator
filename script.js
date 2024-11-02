@@ -41,11 +41,11 @@ let selectedCategory = 'Random';
 
 
 const audioSources = {
-  Study: "path/to/study-audio.mp3",      
-  Business: "path/to/business-audio.mp3",
-  Life: "path/to/life-audio.mp3",        
-  Relationship: "path/to/relation-audio.mp3", 
-  Random: "path/to/random-audio.mp3",    
+  Study: "study_audio.mp3",      
+  Business: "business_audio.mp3",
+  Life: "nagachechi_new.mp3",        
+  Relationship: "relation_audio.mp3", 
+  Random: "nagachechi_new.mp3",    
 };
 
 
@@ -91,9 +91,30 @@ function getMotivation() {
 
   const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
   quoteElement.textContent = randomQuote;
-
-  
+ 
   audio.src = audioSrc; 
   audio.currentTime = 0; 
   audio.play(); 
+}
+
+
+function stopAudio() {
+  audio.pause();
+  audio.currentTime = 0; // Reset audio to the start
+}
+
+function moveButton() {
+  const button = document.getElementById("stopAudioButton");
+  
+  // Define the maximum width and height for the movement area
+  const maxWidth = 750;
+  const maxHeight = 750;
+  
+  // Ensure the button stays within the max width and height
+  const randomX = Math.floor(Math.random() * (Math.min(maxWidth, window.innerWidth) - button.offsetWidth));
+  const randomY = Math.floor(Math.random() * (Math.min(maxHeight, window.innerHeight) - button.offsetHeight));
+  
+  button.style.position = "absolute";
+  button.style.left = `${randomX}px`;
+  button.style.top = `${randomY}px`;
 }

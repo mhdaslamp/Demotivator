@@ -8,9 +8,46 @@
     <script src="script.js"></script>
   </head>
   <body>
+    <div
+      class="floating-image"
+      style="background-image: url('nagachechi.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('shibudinam.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('nagachechi.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('nagachechi.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('shibudinam.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('nagachechi.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('shibudinam.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('nagachechi.png')"
+    ></div>
+    <div
+      class="floating-image"
+      style="background-image: url('shibudinam.png')"
+    ></div>
+
     <div class="container">
       <h1>Need Some Motivation?</h1>
-      <p>Click the button to get motivated!</p>
+
       <div id="quote" style="font-size: 1.5em; margin: 20px 0"></div>
 
       <div class="dropdown">
@@ -29,17 +66,22 @@
           <button class="button" onclick="changeCategory('Relationship')">
             Relationship
           </button>
-          <button class="button" onclick="changeCategory('Random')">
-            Random
-          </button>
         </div>
       </div>
 
       <button class="button" onclick="getMotivation()">Get Motivation</button>
 
+      <button
+        class="button"
+        id="stopAudioButton"
+        onclick="stopAudio()"
+        onmouseover="moveButton()"
+      >
+        Stop Audio
+      </button>
+
       <audio id="motivational-music" preload="auto"></audio>
 
-      <!-- Audio element for motivational music -->
       <audio
         id="motivational-music"
         src="nagachechi.mp3"
