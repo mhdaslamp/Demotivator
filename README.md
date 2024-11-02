@@ -52,13 +52,10 @@ Themed Audio Clips: Each category has its own playful audio to enhance the exper
 
 Interactive "Stop Audio" Button: A tricky button that moves away when hovered, adding a fun twist.
 
-Reverse Motivation Hub offers a fresh way to find humor and inspiration by embracing life’s absurdities.
+Motivator a fresh way to find humor and inspiration by embracing life’s absurdities.
 
 # Screenshots (Add at least 3)
 ![Screenshot 2024-11-02 190320](https://github.com/user-attachments/assets/87a8a985-ba4c-49aa-ae70-00d824421612)
-
-
-
 
 
 Made with ❤️ at TinkerHub Useless Projects 
