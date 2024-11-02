@@ -6,6 +6,7 @@ body {
     align-items: center;
     background: linear-gradient(135deg, #7F00FF, #E100FF);
     font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent scrollbars from appearing */
 }
 
 .container {
@@ -14,6 +15,8 @@ body {
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative; /* Makes sure children are positioned absolutely relative to this */
+    z-index: 1; /* Ensure container is above floating images */
 }
 
 h1 {
@@ -83,17 +86,86 @@ p {
 .dropdown:hover .button {
     background-color: #FF7F00;
 }
-
-.arrow {
-    margin-left: 10px;
-    border: solid white; /* Arrow color */
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
+.floating-image {
+    position: absolute;
+    width: 150px; /* Set your desired width */
+    height: 150px; /* Set your desired height */
+    background-size: cover;
+    animation: float 12s ease-in-out infinite; /* Adjusted duration for faster movement */
+    z-index: 0; /* Lower z-index to place it behind the container */
 }
 
-.button .arrow {
-    margin-left: 5px; /* Adjust for spacing */
-    display: inline-block; /* Ensure it stays in line with text */
+/* Floating animation */
+@keyframes float {
+    0% {
+        transform: translate(0, 0); /* Starting position */
+    }
+    10% {
+        transform: translate(200px, -100px); /* Move to the upper right */
+    }
+    20% {
+        transform: translate(400px, 50px); /* Move further to the right */
+    }
+    30% {
+        transform: translate(300px, 300px); /* Move down to the right */
+    }
+    40% {
+        transform: translate(-200px, 300px); /* Move down to the left */
+    }
+    50% {
+        transform: translate(-400px, 150px); /* Move further to the left */
+    }
+    60% {
+        transform: translate(-100px, -200px); /* Move up to the left */
+    }
+    70% {
+        transform: translate(150px, -300px); /* Move up to the right */
+    }
+    80% {
+        transform: translate(300px, -150px); /* Move diagonally */
+    }
+    90% {
+        transform: translate(0, 0); /* Hold position briefly */
+    }
+    100% {
+        transform: translate(0, 0); /* Return to starting position */
+    }
 }
+
+/* Specific delays for multiple images */
+.floating-image:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.floating-image:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.floating-image:nth-child(3) {
+    animation-delay: 4s;
+}
+
+.floating-image:nth-child(4) {
+    animation-delay: 6s;
+}
+
+.floating-image:nth-child(5) {
+    animation-delay: 8s;
+}
+
+.floating-image:nth-child(6) {
+    animation-delay: 10s;
+}
+
+.floating-image:nth-child(7) {
+    animation-delay: 12s;
+}
+
+.floating-image:nth-child(8) {
+    animation-delay: 14s;
+}
+
+.floating-image:nth-child(9) {
+    animation-delay: 16s;
+}
+
