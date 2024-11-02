@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #7F00FF, #E100FF);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #1A1A40;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#quote {
+    color: yellow; /* Set the quote color to yellow */
+    font-size: 1.5em; /* Ensure this is included in CSS for consistency */
+    margin: 20px 0;
+}
+
+.button {
+    background-color: #FF8C00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.button:hover {
+    background-color: #FF7F00;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FF8C00;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #FF7F00;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .button {
+    background-color: #FF7F00;
+}
+
+.arrow {
+    margin-left: 10px;
+    border: solid white; /* Arrow color */
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+}
+
+.button .arrow {
+    margin-left: 5px; /* Adjust for spacing */
+    display: inline-block; /* Ensure it stays in line with text */
+}

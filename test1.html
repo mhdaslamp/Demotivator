@@ -1,19 +1,55 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Motivator</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="motivator-container">
-      <h1>Need Some Motivation?</h1>
-      <p id="quote">Click the button to get motivated!</p>
-      <button onclick="getMotivation()">Get Motivation</button>
-      <audio id="motivational-music" src="test.mp3"></audio>
+    <link rel="stylesheet" href="style2.css" />
+    <script>
+        const quotes = [
+            "ഈശ്വരൻ നിനക്ക് കഴിവ് തന്നു… പക്ഷേ അതുപയോഗിക്കാനാകില്ലെന്ന് അവനറിഞ്ഞിരുന്നു.",
+            "വായനയിലൂടെയും വിജയിച്ചവരുണ്ട്, പക്ഷേ തീര്‍ച്ചയായും നീ അല്ല.",
+            "ചുറ്റും തിരിഞ്ഞു നോക്കൂ, എല്ലാം മുന്നേറുന്നു… നീ ഒഴിച്ച്.",
+            "പരാജയം മഹത്തായ ഗുരു ആണ്.അതിനാൽ നിന്നെക്കണ്ട് കൊണ്ട് ധാരാളം പഠിക്കാം.",
+            "Great things never come from comfort zones.",
+            "Dream it. Wish it. Do it."
+        ];
+        
+        function getMotivation() {
+            const quoteElement = document.getElementById("quote");
+            const audio = document.getElementById("motivational-music");
+        
+            // Display a random quote
+            const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+            quoteElement.textContent = randomQuote;
+        
+            // Play music
+            audio.currentTime = 0;
+            audio.play();
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Need Some Motivation?</h1>
+        <p>Click the button to get motivated!</p>
+        <div id="quote" style="font-size: 1.5em; margin: 20px 0;"></div>
+        
+        <div class="dropdown">
+            <button class="button">Motivation Categories <i class="arrow"></i></button>
+            <div class="dropdown-content">
+                <a href="#">Study</a>
+                <a href="#">Business</a>
+                <a href="#">Life</a>
+                <a href="#">Relationship</a>
+            </div>
+        </div>
+        
+        <button class="button" onclick="getMotivation()">Get Motivation</button>
+        
+        <!-- Audio element for motivational music -->
+        <audio id="motivational-music" src="nagachechi.mp3" preload="auto"></audio>
     </div>
-
-    <script src="script.js"></script>
-  </body>
+</body>
 </html>
