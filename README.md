@@ -1,4 +1,4 @@
-<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
+![image](https://github.com/user-attachments/assets/444d4804-b968-492c-82ca-9bb578cd4bc9)<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
 # MOTIVATOR🎯
 
@@ -32,36 +32,20 @@ For Software:
 ### Implementation
 For Software:
 # Installation
-
+https://mhdaslamp.github.io/Demotivator/
 
 # Run
-[commands]
+https://mhdaslamp.github.io/Demotivator/
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/444d4804-b968-492c-82ca-9bb578cd4bc9)<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
+![Screenshot 2024-11-02 190320](https://github.com/user-attachments/assets/87a8a985-ba4c-49aa-ae70-00d824421612)<img width="1280" alt="screenshot" scrc="https://github.com/user-attachments/assets/87a8a985-ba4c-49aa-ae70-00d824421612"
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 # Build Photos
 ![Components](Add photo of your components here)
@@ -73,13 +57,10 @@ For Hardware:
 ![Final](Add photo of final product here)
 *Explain the final build*
 
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
 
 # Additional Demos
-[Add any extra demo materials/links]
+
+
 
 ## Team Contributions
 - [Name 1]: [Specific contributions]
