@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(135deg, #7F00FF, #E100FF);
     font-family: Arial, sans-serif;
-    overflow:hidden;
+   overflow: hidden;
 }
 
 .container {
@@ -36,6 +36,19 @@ p {
     margin: 20px 0;
 }
 
+
+.stop {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    position: relative;
+
+}
 .button {
     background-color: #FF8C00;
     color: white;
