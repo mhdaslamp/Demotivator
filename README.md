@@ -38,33 +38,29 @@ https://mhdaslamp.github.io/Demotivator/
 https://mhdaslamp.github.io/Demotivator/
 
 ### Project Documentation
-For Software:
+
+Description:
+Motivator is a humorous website designed to motivate through sarcasm and blunt honesty. Instead of traditional motivational quotes, it delivers "demotivational" messages that offer a refreshing, funny take on life’s challenges.
+
+Features:
+
+Categories: Choose from "Study," "Business," "Life," "Relationships," and "Random" for tailored quotes.
+
+Random Quotes: Get a new, unexpected quote each time you click "Get Motivation."
+
+Themed Audio Clips: Each category has its own playful audio to enhance the experience.
+
+Interactive "Stop Audio" Button: A tricky button that moves away when hovered, adding a fun twist.
+
+Reverse Motivation Hub offers a fresh way to find humor and inspiration by embracing life’s absurdities.
 
 # Screenshots (Add at least 3)
 ![Screenshot 2024-11-02 190320](https://github.com/user-attachments/assets/87a8a985-ba4c-49aa-ae70-00d824421612)
 
 
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-
-# Additional Demos
 
 
 
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
----
 Made with ❤️ at TinkerHub Useless Projects 
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
