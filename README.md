@@ -1,43 +1,38 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [MOTIVATOR] 🎯
+# MOTIVATOR🎯
 
 
 ## Basic Details
-### Team Name: [LINKED LIST]
+### Team Name: LINKED LIST
 
 
 ### Team Members
-- Team Lead: [MOHAMMED ASLAM] - [GOVERNMENT ENGINEERING COLLEGE SREEKRISHNAPURAM]
-- Member 2: [PARTHIV KRISHNA] - [GOVERNMENT ENGINEERING COLLEGE SREEKRISHNAPURAM]
-- Member 3: [NAVAMI BR] - [GOVERNMENT ENGINEERING COLLEGE SREEKRISHNAPURAM]
+- Team Lead: MOHAMMED ASLAM - GOVERNMENT ENGINEERING COLLEGE SREEKRISHNAPURAM
+- Member 2: PARTHIV KRISHNA- GOVERNMENT ENGINEERING COLLEGE SREEKRISHNAPURAM
+- Member 3: NAVAMI BR - GOVERNMENT ENGINEERING COLLEGE SREEKRISHNAPURAM
 
 ### Project Description
-[2-3 lines about what your project does]
+Motivator is a playful website designed to motivate people with a twist. Instead of typical uplifting quotes, it offers funny, sarcastic, and sometimes brutally honest "demotivational" messages
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+People are tired of the same old positive, feel-good motivational quotes flooding their social media feeds
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Introducing Motivator – the only website bold enough to tell you that, yes, sometimes you’re just procrastinating, and maybe today isn’t your day. Instead of sugarcoating, we’re serving up sassy, sarcastic, and hilariously blunt "demotivational" quotes designed to make you laugh, roll your eyes, or maybe even think, "Okay, maybe I can actually get through this.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- javascript
+- html
+- css
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+
 
 # Run
 [commands]
