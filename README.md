@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/444d4804-b968-492c-82ca-9bb578cd4bc9)<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
+<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
 # MOTIVATOR🎯
 
