@@ -86,6 +86,7 @@ p {
 .dropdown:hover .button {
     background-color: #FF7F00;
 }
+
 .floating-image {
     position: absolute;
     width: 150px; /* Set your desired width */
@@ -168,4 +169,3 @@ p {
 .floating-image:nth-child(9) {
     animation-delay: 16s;
 }
-
